@@ -61,6 +61,8 @@ body {
     position: relative;
     width: 100%;
     height: 300px;
+    display: grid;
+    place-items: center;
 }
 
 .brasilrock {
@@ -79,7 +81,6 @@ body {
     justify-content: center;
     text-align: center;
     position: absolute;
-    right: 0rem;
     top: 45rem;
 }
 
@@ -120,8 +121,10 @@ body {
 .eu {
     color: white;
     position: absolute;
+    left: 50%;
     top: 150rem;
-    right: 16rem;
+    align-items: center;
+    transform: translateX(-50%);
 }
 
 
@@ -138,9 +141,4 @@ body {
     font-family: 'ultrakill' ;
     src: url(ultrakill/BroshK_SVG-in-OT/BroshK.woff);
     src: url(ultrakill/BroshK_SVG-in-OT/BroshK.ttf);
-}
-
-
-.part2-titulo {
-    color: black;
 }
