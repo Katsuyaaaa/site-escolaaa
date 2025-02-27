@@ -19,7 +19,6 @@ body {
     line-height: 1.5;
     color: rgb(255, 255, 255);
     position: absolute;
-    right: 28%;
     top: 26rem;
     width: 600px;
     height: 200px;
@@ -69,14 +68,13 @@ body {
     color: white;
     position: absolute;
     top: 63rem;
-    left: 30rem;
+    left: rem;
 }
 
 .brasilpara {
     line-height: 1.5;
     color: white;
     width: 600px;
-    height: 200px;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -94,28 +92,29 @@ body {
 .robertocarlos {
     width: 70%;
     position: absolute;
-    top: 115rem;
-    left: 25rem;
+    top: 120rem;
+    left: 20rem;
 }
 
 .osmutantes {
     width: 70%;
     position: absolute;
-    top: 115rem;
-    right: 25rem;
+    top: 120rem;
+    right: 20rem;
 }
 
 .raulseixas {
     position: absolute;
     top: 90rem;
-    right: 25rem;
-    width: 50%;
+    right: 20rem;
+    width: 70%;
 }
 
 .ritalee {
     position: absolute;
     top: 90rem;
-    left: 25rem;
+    left: 20rem;
+    width: 70%;
 }
 
 .eu {
