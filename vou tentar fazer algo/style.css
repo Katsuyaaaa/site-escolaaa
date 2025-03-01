@@ -45,7 +45,7 @@ body {
 .img1 {
     width: 25%;
     position: absolute;
-    right: 25%;
+    right: 23%;
     top: 30%;
 }
 
@@ -53,7 +53,7 @@ body {
     width: 25%;
     position: absolute;
     top: 30%;
-    left: 20rem;
+    left: 23%;
 }
 
 .testee {
@@ -68,7 +68,6 @@ body {
     color: white;
     position: absolute;
     top: 63rem;
-    left: rem;
 }
 
 .brasilpara {
@@ -83,37 +82,39 @@ body {
 }
 
 .galeria {
+    left: 16rem;
+    text-align: center;
+    align-items: center;
     position: absolute;
     color: white;
     top: 80rem;
-    right: 15rem;
 }
 
 .robertocarlos {
     width: 70%;
     position: absolute;
     top: 120rem;
-    left: 20rem;
+    left: 22rem;
 }
 
 .osmutantes {
     width: 70%;
     position: absolute;
     top: 120rem;
-    right: 20rem;
+    right: 22rem;
 }
 
 .raulseixas {
     position: absolute;
     top: 90rem;
-    right: 20rem;
+    right: 22rem;
     width: 70%;
 }
 
 .ritalee {
     position: absolute;
     top: 90rem;
-    left: 20rem;
+    left: 22rem;
     width: 70%;
 }
 
