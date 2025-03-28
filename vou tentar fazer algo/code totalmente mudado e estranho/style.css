@@ -1,0 +1,218 @@
+:root {
+    --laranja-claro: #FF862A;
+    --alto-contraste-fundo: #000000;
+    --alto-contraste-texto: #ffffff;
+    --alto-contraste-link: #ffd700;
+}
+
+.menu-acessibilidade {
+    position: fixed;
+    top: 2rem;
+    right: 20px;
+    z-index: 1000;
+}
+
+.cima {
+    background-color: rgb(64, 153, 64);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 70px;
+}
+
+.textocor {
+    color: rgb(204, 204, 204);
+    font-family: ultrakill;
+}
+
+.paragrafos {
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 26rem;
+    width: 600px;
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.esqueleto1 {
+    position: absolute;
+    top: 15%;
+    left: 0rem;
+    width: 20%
+}
+
+.esqueleto2 {
+    position: absolute;
+    top: 15%;
+    right: 0rem;
+    width: 20%
+    
+}
+
+.img1 {
+    width: 25%;
+    position: absolute;
+    right: 25%;
+    top: 40%;
+}
+
+.img2 {
+    width: 25%;
+    position: absolute;
+    top: 40%;
+    left: 20rem;
+}
+
+.testee {
+    position: relative;
+    display: grid;
+    place-items: center;
+    background-color: rgb(121, 187, 135);
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container-imagens {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    margin-top: 20rem;
+}
+
+
+.container-imagens img {
+    width: 23%; 
+    max-width: 100%; 
+    height: auto; 
+}
+
+
+.brasilrock {
+    color: white;
+    position: absolute;
+    top: 65rem;
+    left: rem;
+}
+
+.brasilpara {
+    line-height: 1.5;
+    color: white;
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 70rem;
+}
+
+.galeria {
+    position: absolute;
+    color: white;
+    top: 110rem;
+    align-items: center;
+}
+
+.robertocarlos {
+    width: 30%;
+    position: absolute;
+    top: 145rem;
+    left: 15rem;
+}
+
+.osmutantes {
+    width: 30%;
+    position: absolute;
+    top: 145rem;
+    right: 15rem;
+}
+
+.raulseixas {
+    position: absolute;
+    top: 115rem;
+    right: 15rem;
+    width: 30%;
+}
+
+.ritalee {
+    position: absolute;
+    top: 115rem;
+    left: 15rem;
+    width: 30%;
+}
+
+.eu {
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 180rem;
+    align-items: center;
+    transform: translateX(-50%);
+}
+
+.rotacao-botao {
+    transform: rotate(-90deg);
+    transform-origin: right center;
+}
+
+.opcoes-acessibilidade {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.opcoes-acessibilidade button {
+    margin-bottom: 5px;
+}
+
+.apresenta-lista {
+    display: none;
+}
+
+.alto-contraste {
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+}
+
+.alto-contraste header,
+.alto-contraste footer,
+.alto-contraste .formulario{
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+}
+
+.alto-contraste .nav-link{
+    color: var(--alto-contraste-link);
+}
+
+.alto-contraste .botao-inicio,
+.alto-contraste .formulario button,
+.alto-contraste .btn-primary{
+    background-color: var(--alto-contraste-link);
+    color: var(--alto-contraste-fundo)
+}
+
+.alto-contraste #brasilrock {
+    background: none;
+}
+
+.alto-contraste body {
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+}
+
+
+
+
+
+
+@font-face {
+    font-family: 'ultrakill' ;
+    src: url(ultrakill/BroshK_SVG-in-OT/BroshK.woff);
+    src: url(ultrakill/BroshK_SVG-in-OT/BroshK.ttf);
+}
