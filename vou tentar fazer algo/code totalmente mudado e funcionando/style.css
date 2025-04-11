@@ -1,0 +1,156 @@
+:root {
+    --laranja-claro: #FF862A;
+    --alto-contraste-fundo: #000000;
+    --alto-contraste-texto: #ffffff;
+    --alto-contraste-link: #ffd700;
+}
+
+.menu-acessibilidade {
+    position: fixed;
+    top: 2rem;
+    right: 20px;
+    z-index: 1000;
+}
+
+.cima {
+    background-color: rgb(64, 153, 64);
+    width: 100%;
+    height: 70px;
+}
+
+.textocor {
+    color: rgb(204, 204, 204);
+    font-family: ultrakill;
+}
+
+.paragrafos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 0%;
+    
+}
+
+.esqueleto1, .esqueleto2{
+    width: 20%
+}
+
+.img1, .img2 {
+    width: 25%;
+}
+
+.testee {
+    background-color: rgb(121, 187, 135);
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.brasilrock {
+    text-align: center;
+    color: white;
+}
+
+.galeria {
+    text-align: center;
+    color: white;
+}
+
+.quadrado {
+    display: grid; /* Ativa o CSS Grid */
+    grid-template-rows: 1fr 1fr; /* Divide o espaço em 2 linhas iguais */
+    grid-template-columns: 1fr 1fr; /* Divide o espaço em 2 colunas iguais */
+    gap: 20px; /* Espaço entre as imagens */
+    width:700px; 
+    height: 700px;
+    margin: 350px auto; 
+    position: relative;
+    top: 50%; 
+    transform: translateY(-50%); 
+}
+
+.quadrado img {
+    width: 100%;
+    height: auto;
+}
+
+.rotacao-botao {
+    transform: rotate(-90deg);
+    transform-origin: right center;
+}
+
+.opcoes-acessibilidade {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.opcoes-acessibilidade button {
+    margin-bottom: 5px;
+}
+
+.apresenta-lista {
+    display: none;
+}
+
+.alto-contraste {
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+}
+
+.alto-contraste header,
+.alto-contraste footer,
+.alto-contraste .formulario{
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+}
+
+.alto-contraste .nav-link{
+    color: var(--alto-contraste-link);
+}
+
+.alto-contraste .botao-inicio,
+.alto-contraste .formulario button,
+.alto-contraste .btn-primary{
+    background-color: var(--alto-contraste-link);
+    color: var(--alto-contraste-fundo)
+}
+
+.alto-contraste #brasilrock {
+    background: none;
+}
+
+.alto-contraste body {
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+}
+
+@media (max-width: 768px) {
+    .container-imagens img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .paragrafos {
+        width: 90%;
+        margin-top: 10%;
+    }
+}
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'ultrakill' ;
+    src: url(ultrakill/BroshK_SVG-in-OT/BroshK.woff);
+    src: url(ultrakill/BroshK_SVG-in-OT/BroshK.ttf);
+}
